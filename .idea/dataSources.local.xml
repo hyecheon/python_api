@@ -11,14 +11,14 @@
       <user-name>root</user-name>
       <introspection-schemas>*:information_schema,pythonApi,python_api</introspection-schemas>
     </data-source>
-    <data-source name="python@localhost" uuid="f04059f8-ab3b-49be-aa89-884a1541965e">
+    <data-source name="python_api@localhost [2]" uuid="f04059f8-ab3b-49be-aa89-884a1541965e">
       <database-info product="PostgreSQL" version="10.1" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.1.1">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
-      <user-name>python</user-name>
-      <introspection-schemas>python:public,python_api</introspection-schemas>
+      <user-name>python_api</user-name>
+      <introspection-schemas>python:public,python_api|python_api:</introspection-schemas>
     </data-source>
   </component>
 </project>
