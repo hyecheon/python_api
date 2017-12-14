@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="python_api@localhost" uuid="e15283f2-7cd6-4b68-a94a-db20e1408488">
-      <database-info product="MySQL" version="5.6.38" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.44 ( Revision: b3cda4f864902ffdde495b9df93937c3e20009be )">
-        <extra-name-characters>#@</extra-name-characters>
-        <identifier-quote-string>`</identifier-quote-string>
-      </database-info>
-      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
-      <secret-storage>master_key</secret-storage>
-      <user-name>root</user-name>
-      <introspection-schemas>*:information_schema,pythonApi,python_api</introspection-schemas>
-    </data-source>
-    <data-source name="python_api@localhost [2]" uuid="f04059f8-ab3b-49be-aa89-884a1541965e">
+    <data-source name="python_api@localhost" uuid="40c2a55c-4fab-4972-b4b5-78d5cc5d3f94">
       <database-info product="PostgreSQL" version="10.1" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.1.1">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>python_api</user-name>
-      <introspection-schemas>python:public,python_api|python_api:</introspection-schemas>
+      <introspection-schemas>python_api:public</introspection-schemas>
     </data-source>
   </component>
 </project>
