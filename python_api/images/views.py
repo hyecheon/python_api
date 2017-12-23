@@ -1,7 +1,7 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
-
-from python_api.images import serializers
+from rest_framework import status
+from python_api.images import serializers, models
 
 
 class Feed(APIView):
@@ -18,8 +18,6 @@ class Feed(APIView):
 
         sorted_list = sorted(image_list, key=get_key, reverse=True)
 
-        print(sorted_list)
-
         serializer = serializers.ImageSerializer(sorted_list, many=True)
 
         return Response(serializer.data)
@@ -31,5 +29,23 @@ def get_key(image):
 
 class LikeImage(APIView):
     def get(self, request, image_id, format=True):
-        print(image_id)
-        return Response(status=200)
+        user = request.user
+        try:
+            found_image = models.Image.objects.get(id=image_id)
+        except models.Image.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND)
+
+        try:
+            preexisting_like = models.Like.objects.get(
+                creator=user,
+                image=found_image
+            )
+            preexisting_like.delete()
+            return Response(status=status.HTTP_204_NO_CONTENT)
+        except models.Like.DoesNotExist:
+            new_like = models.Like.objects.create(
+                creator=user,
+                image=found_image
+            )
+            new_like.save()
+            return Response(status=status.HTTP_201_CREATED)
