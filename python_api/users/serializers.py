@@ -4,11 +4,15 @@ from python_api.images import serializers as images_serializers
 
 
 class UserProfileSerializer(serializers.ModelSerializer):
-    images = images_serializers.UserProfileImageSerializer(many=True)
+    images = images_serializers.ImageSerializer(many=True, read_only=True)
+    post_count = serializers.ReadOnlyField()
+    followers_count = serializers.ReadOnlyField()
+    following_count = serializers.ReadOnlyField()
 
     class Meta:
         model = models.User
         fields = (
+            'profile_image',
             'username',
             'name',
             'bio',
@@ -33,4 +37,15 @@ class ExploreUserSerializer(serializers.ModelSerializer):
             'profile_image',
             'username',
             'name'
+        )
+
+
+class ListUserSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = models.User
+        fields = (
+            'id',
+            'profile_image',
+            'username',
+            'name',
         )
