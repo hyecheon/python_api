@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65c999e0-676e-4f69-84d7-36093ec90e7e" name="Default" comment="   #3-17 Adding SCSS Variables">
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/src/components/Footer/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/src/components/Footer/styles.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/src/config/_colors.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/src/config/_size.scss" />
+    <list default="true" id="65c999e0-676e-4f69-84d7-36093ec90e7e" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/src/config/_mixins.scss" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/frontend/config/webpack.config.dev.js" afterPath="$PROJECT_DIR$/frontend/config/webpack.config.dev.js" />
-      <change beforePath="$PROJECT_DIR$/frontend/config/webpack.config.prod.js" afterPath="$PROJECT_DIR$/frontend/config/webpack.config.prod.js" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/App/index.js" afterPath="$PROJECT_DIR$/frontend/src/components/App/index.js" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/App/styles.scss" afterPath="$PROJECT_DIR$/frontend/src/components/App/styles.scss" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Footer/styles.scss" afterPath="$PROJECT_DIR$/frontend/src/components/Footer/styles.scss" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/config/_size.scss" afterPath="$PROJECT_DIR$/frontend/src/config/_size.scss" />
       <change beforePath="$PROJECT_DIR$/frontend/src/config/_variables.scss" afterPath="$PROJECT_DIR$/frontend/src/config/_variables.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -74,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/frontend/src/components/App/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
-              <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+              <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -84,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/frontend/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="299">
-              <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+              <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -95,18 +90,8 @@
       <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/config/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/components/App/styles.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="35" />
+            <state relative-caret-position="69">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -115,8 +100,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/components/Footer/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="483">
+              <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -124,11 +109,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/components/Footer/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="153">
+              <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_mixins.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/src/config/_mixins.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -137,8 +132,8 @@
       <file leaf-file-name="_size.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/config/_size.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="69">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -148,7 +143,7 @@
         <entry file="file://$PROJECT_DIR$/frontend/src/config/_colors.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="69">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -239,7 +234,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/python_api/images/admin.py" />
         <option value="$PROJECT_DIR$/python_api/images/apps.py" />
         <option value="$PROJECT_DIR$/python_api/users/models.py" />
@@ -280,8 +274,6 @@
         <option value="$PROJECT_DIR$/frontend/src/translations.js" />
         <option value="$PROJECT_DIR$/frontend/src/redux/configureStore.js" />
         <option value="$PROJECT_DIR$/frontend/src/App.scss" />
-        <option value="$PROJECT_DIR$/frontend/src/config/_size.scss" />
-        <option value="$PROJECT_DIR$/frontend/src/config/_variables.scss" />
         <option value="$PROJECT_DIR$/frontend/src/config/_colors.scss" />
         <option value="$PROJECT_DIR$/frontend/src/components/App/styles.scss" />
         <option value="$PROJECT_DIR$/frontend/config/webpack.config.prod.js" />
@@ -289,6 +281,9 @@
         <option value="$PROJECT_DIR$/frontend/src/index.js" />
         <option value="$PROJECT_DIR$/frontend/src/components/App/index.js" />
         <option value="$PROJECT_DIR$/frontend/src/components/Footer/index.js" />
+        <option value="$PROJECT_DIR$/frontend/src/config/_size.scss" />
+        <option value="$PROJECT_DIR$/frontend/src/config/_mixin.scss" />
+        <option value="$PROJECT_DIR$/frontend/src/config/_variables.scss" />
         <option value="$PROJECT_DIR$/frontend/src/components/Footer/styles.scss" />
       </list>
     </option>
@@ -998,7 +993,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514904230617</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="   #3-19 Styling the Footer">
+      <created>1514907601629</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1514907601629</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1022,7 +1024,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287234" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287234" sideWeight="0.49361023" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34361702" sideWeight="0.48615548" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34361702" sideWeight="0.48615548" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24760383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1109,7 +1111,8 @@
     <MESSAGE value="   #3-11 Syncing React Router with Redux" />
     <MESSAGE value="   #3-16 Moving the App Component and Adding Reset-CSS" />
     <MESSAGE value="   #3-17 Adding SCSS Variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="   #3-17 Adding SCSS Variables" />
+    <MESSAGE value="   #3-19 Styling the Footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="   #3-19 Styling the Footer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1123,13 +1126,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/scripts/build.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/build/static/js/main.03ae56b7.js" />
     <entry file="file://$PROJECT_DIR$/config/settings/base.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1457,26 +1453,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/config/_size.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/config/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/config/_colors.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1492,7 +1472,7 @@
     <entry file="file://$PROJECT_DIR$/frontend/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -1502,7 +1482,7 @@
     <entry file="file://$PROJECT_DIR$/frontend/src/components/App/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
-          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+          <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1517,18 +1497,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/components/Footer/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="483">
+          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/config/_size.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/config/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/components/Footer/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="153">
+          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/config/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding />
         </state>
       </provider>
