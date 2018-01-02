@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65c999e0-676e-4f69-84d7-36093ec90e7e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/src/components/App/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/src/components/App/styles.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/src/config/_variables.scss" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" afterPath="$PROJECT_DIR$/frontend/package.json" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" afterPath="$PROJECT_DIR$/frontend/src/index.js" />
-      <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" afterPath="$PROJECT_DIR$/frontend/yarn.lock" />
+      <change beforePath="$PROJECT_DIR$/frontend/config/webpack.config.dev.js" afterPath="$PROJECT_DIR$/frontend/config/webpack.config.dev.js" />
+      <change beforePath="$PROJECT_DIR$/frontend/config/webpack.config.prod.js" afterPath="$PROJECT_DIR$/frontend/config/webpack.config.prod.js" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/App/styles.scss" afterPath="$PROJECT_DIR$/frontend/src/components/App/styles.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
@@ -69,26 +65,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="translations.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/translations.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,7 +75,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/components/App/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
@@ -111,11 +87,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/components/App/styles.scss">
+      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/config/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="14" lean-forward="true" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/src/components/App/styles.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.config.dev.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/config/webpack.config.dev.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="195" column="93" lean-forward="true" selection-start-line="195" selection-start-column="35" selection-end-line="195" selection-end-column="93" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.config.prod.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/config/webpack.config.prod.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="205" column="27" lean-forward="true" selection-start-line="205" selection-start-column="27" selection-end-line="205" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="paths.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/config/paths.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="48" column="4" lean-forward="false" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -143,28 +159,6 @@
       </file>
       <file leaf-file-name="_reset.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/node_modules/reset-css/_reset.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReactotronConfig.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/ReactotronConfig.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/node_modules/reactotron-react-js/dist/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -263,9 +257,7 @@
         <option value="$PROJECT_DIR$/frontend/config/paths.js" />
         <option value="$PROJECT_DIR$/frontend/scripts/start.js" />
         <option value="$PROJECT_DIR$/frontend/scripts/build.js" />
-        <option value="$PROJECT_DIR$/frontend/config/webpack.config.prod.js" />
         <option value="$PROJECT_DIR$/frontend/build/static/css/main.22e3da48.css" />
-        <option value="$PROJECT_DIR$/frontend/config/webpack.config.dev.js" />
         <option value="$PROJECT_DIR$/config/settings/base.py" />
         <option value="$PROJECT_DIR$/config/urls.py" />
         <option value="$PROJECT_DIR$/python_api/views.py" />
@@ -282,8 +274,11 @@
         <option value="$PROJECT_DIR$/frontend/src/redux/configureStore.js" />
         <option value="$PROJECT_DIR$/frontend/src/App.scss" />
         <option value="$PROJECT_DIR$/frontend/src/index.js" />
-        <option value="$PROJECT_DIR$/frontend/src/components/App/styles.scss" />
         <option value="$PROJECT_DIR$/frontend/src/components/App/index.js" />
+        <option value="$PROJECT_DIR$/frontend/src/config/_variables.scss" />
+        <option value="$PROJECT_DIR$/frontend/config/webpack.config.dev.js" />
+        <option value="$PROJECT_DIR$/frontend/config/webpack.config.prod.js" />
+        <option value="$PROJECT_DIR$/frontend/src/components/App/styles.scss" />
       </list>
     </option>
   </component>
@@ -316,10 +311,13 @@
           <State>
             <id>Python</id>
           </State>
+          <State>
+            <id>Sass/SCSS</id>
+          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>PyCompatibilityInspection</id>
+            <id>SassScssResolvedByNameOnly</id>
           </State>
         </selected-state>
       </profile-state>
@@ -356,6 +354,12 @@
               <item name="python_api" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_api" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_api" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -372,6 +376,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="App" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_api" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python_api" type="b2602c69:ProjectViewProjectNode" />
@@ -945,7 +956,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514800124644</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="   #3-16 Moving the App Component and Adding Reset-CSS">
+      <created>1514903442611</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1514903442611</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -965,16 +983,17 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34361702" sideWeight="0.5138445" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34361702" sideWeight="0.51597446" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287234" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287234" sideWeight="0.48988286" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287234" sideWeight="0.49361023" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34361702" sideWeight="0.48615548" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34361702" sideWeight="0.48402557" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24760383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29286474" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1008,7 +1027,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34361702" sideWeight="0.48615548" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24494143" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1069,7 +1087,8 @@
     <MESSAGE value="   #3-5 Redux Middlewares Thunk" />
     <MESSAGE value="   #3-6 Redux Middlewares- Logger" />
     <MESSAGE value="   #3-11 Syncing React Router with Redux" />
-    <option name="LAST_COMMIT_MESSAGE" value="   #3-11 Syncing React Router with Redux" />
+    <MESSAGE value="   #3-16 Moving the App Component and Adding Reset-CSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="   #3-16 Moving the App Component and Adding Reset-CSS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1083,33 +1102,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/requirements/base.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/config/paths.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/build/static/css/main.65027555.css" />
     <entry file="file://$PROJECT_DIR$/frontend/build/static/css/main.0d87ae1b.css" />
     <entry file="file://$PROJECT_DIR$/frontend/config/webpackDevServer.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/config/webpack.config.prod.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="185" column="105" lean-forward="false" selection-start-line="185" selection-start-column="105" selection-end-line="185" selection-end-column="105" />
         </state>
       </provider>
     </entry>
@@ -1127,13 +1125,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/config/webpack.config.dev.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="167" column="93" lean-forward="false" selection-start-line="167" selection-start-column="93" selection-end-line="167" selection-end-column="93" />
         </state>
       </provider>
     </entry>
@@ -1225,6 +1216,73 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1514700943817" expanded="true" signature="12362:12390" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="13783:14059" ph="{&quot;version&quot;: &quot;0.2.0&quot;...}" />
+              <marker date="1514700943817" expanded="true" signature="13827:14057" ph="[...]" />
+              <marker date="1514700943817" expanded="true" signature="13828:14056" ph="{&quot;name&quot;: &quot;Chrome&quot;...}" />
+              <marker date="1514700943817" expanded="true" signature="14004:14052" ph="{&quot;webpack:///src/*&quot;: &quot;${webRoot}/*&quot;...}" />
+              <marker date="1514700943817" expanded="true" signature="19291:19322" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="19304:19320" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="19428:19493" ph="..." />
+              <marker date="1514700943817" expanded="true" signature="19572:19627" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="19585:19625" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="21489:21563" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="21568:21600" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="21622:21657" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="21677:21784" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="22719:22739" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="22775:22832" ph="..." />
+              <marker date="1514700943817" expanded="true" signature="22914:23019" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="22927:23017" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="24098:24164" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="24197:24484" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="29996:30046" ph="..." />
+              <marker date="1514700943817" expanded="true" signature="30153:30240" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="30450:30490" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="33322:33587" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="33326:33520" ph="//..." />
+              <marker date="1514700943817" expanded="true" signature="36022:36106" ph="..." />
+              <marker date="1514700943817" expanded="true" signature="36107:36211" ph="//..." />
+              <marker date="1514700943817" expanded="true" signature="41378:41525" ph="..." />
+              <marker date="1514700943817" expanded="true" signature="41465:41518" ph="..." />
+              <marker date="1514700943817" expanded="true" signature="41975:42001" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="50888:51001" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="50910:50990" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="50924:50986" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="51344:51944" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="51366:51933" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="51426:51490" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="51550:51676" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="51619:51657" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="51758:51805" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="51883:51929" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="52875:53287" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="52897:53276" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="52914:53272" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="53001:53236" ph="//..." />
+              <marker date="1514700943817" expanded="true" signature="54395:54524" ph="..." />
+              <marker date="1514700943817" expanded="true" signature="54404:54524" ph="..." />
+              <marker date="1514700943817" expanded="true" signature="60196:60210" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="61143:61221" ph="..." />
+              <marker date="1514700943817" expanded="true" signature="61260:61305" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="62594:62669" ph="..." />
+              <marker date="1514700943817" expanded="true" signature="62769:62847" ph="..." />
+              <marker date="1514700943817" expanded="true" signature="62886:62898" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="63820:63898" ph="..." />
+              <marker date="1514700943817" expanded="true" signature="63936:63971" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="65584:65634" ph="..." />
+              <marker date="1514700943817" expanded="true" signature="66107:66173" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="67501:67918" ph="{&quot;name&quot;: &quot;your-package&quot;...}" />
+              <marker date="1514700943817" expanded="true" signature="67539:67916" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="67569:67669" ph="[...]" />
+              <marker date="1514700943817" expanded="true" signature="67696:67824" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="67714:67818" ph="{&quot;branches&quot;: 90...}" />
+              <marker date="1514700943817" expanded="true" signature="70124:70242" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="84529:84593" ph="{...}" />
+              <marker date="1514700943817" expanded="true" signature="106841:106889" ph="..." />
+              <marker date="1514700943817" expanded="true" signature="107031:107106" ph="..." />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -1234,6 +1292,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1263,6 +1322,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="524">
           <caret line="71" column="1" lean-forward="false" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1417,14 +1477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/components/App/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" lean-forward="true" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/components/App/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -1432,6 +1484,46 @@
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/config/paths.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="48" column="4" lean-forward="false" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/config/webpack.config.prod.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="205" column="27" lean-forward="true" selection-start-line="205" selection-start-column="27" selection-end-line="205" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/config/webpack.config.dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="195" column="93" lean-forward="true" selection-start-line="195" selection-start-column="35" selection-end-line="195" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/config/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/App/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>

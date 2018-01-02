@@ -1,1 +1,6 @@
 @import '~reset-css/_reset.scss';
+//@import '../../config/variables';
+
+body {
+  background-color: $bg-color;
+}
