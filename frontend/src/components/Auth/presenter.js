@@ -27,7 +27,7 @@ const Auth = (props, context) => (
                 )}
             </div>
             <div className={styles["app-box"]}>
-                <span>{console.log(props)} Get the app</span>
+                <span>Get the app</span>
                 <div className={styles.appstores}>
                     <img src={require("images/ios.png")} alt="Download it on the Apple Appstore"/>
                     <img src={require("images/android.png")} alt="Download it on the Apple Appstore"/>
