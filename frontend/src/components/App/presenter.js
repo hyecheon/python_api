@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import {Route, Switch} from 'react-router-dom';
 import Footer from '../Footer'
 import Auth from "../Auth";
-
+import styles from "./styles.scss";
 
 const App = props => [
     props.isLoggedIn ? <PrivateRoutes key={2}/> : <PublicRoutes key={2}/>,

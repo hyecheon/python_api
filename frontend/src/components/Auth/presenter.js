@@ -5,7 +5,7 @@ import {LoginForm, SignupForm} from "../AuthForms";
 const Auth = (props, context) => (
     <main className={styles.auth}>
         <div className={styles.column}>
-            <img style={{"width": "100%"}} src={require("images/phone.png")} alt="Checkout our app. Is cool"/>
+            <img src={require("images/phone.png")} alt="Checkout our app. Is cool"/>
         </div>
         <div className={styles.column}>
             <div className={`${styles["white-box"]} ${styles.formBox}`}>
@@ -14,13 +14,13 @@ const Auth = (props, context) => (
             </div>
             <div className={styles["white-box"]}>
                 {props.action === 'login' && (
-                    <p>Don't have an account?{" "}
+                    <p className={styles.text}>Don't have an account?{" "}
                         <span className={styles["change-link"]}
                               onClick={props.changeAction}>Sign up</span>
                     </p>
                 )}
                 {props.action === "signup" && (
-                    <p>
+                    <p className={styles.text}>
                         Have an account?{" "}
                         <span className={styles["change-link"]} onClick={props.changeAction}>Log in</span>
                     </p>
