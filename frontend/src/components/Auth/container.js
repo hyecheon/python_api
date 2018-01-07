@@ -1,5 +1,5 @@
-import React, {Component} from 'react'
-import Auth from './presenter'
+import React, {Component} from "react";
+import Auth from "./presenter";
 
 class Container extends Component {
     state = {
@@ -8,7 +8,7 @@ class Container extends Component {
 
     render() {
         const {action} = this.state;
-        return <Auth action={action} changeAction={this._changeAction}/>
+        return (<Auth action={action} changeAction={this._changeAction}/>);
     }
 
     _changeAction = () => {
@@ -17,14 +17,14 @@ class Container extends Component {
             if (action === "login") {
                 return {
                     action: "signup"
-                }
+                };
             } else if (action === "signup") {
                 return {
                     action: "login"
-                }
+                };
             }
         });
     };
 }
 
-export default Container
+export default Container;
