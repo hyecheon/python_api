@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"Language: ko"
+
+#: src/components/Auth/presenter.js
+#: src/components/AuthForms/index.js
+msgid "Sign up"
+msgstr "가입"
+
+#: src/components/Auth/presenter.js
+#: src/components/AuthForms/index.js
+msgid "Log in"
+msgstr "로그인"
+
+#: src/components/AuthForms/index.js
+msgid "Log in with Facebook"
+msgstr ""
+
+#: src/components/AuthForms/index.js
+msgid "Forgot password?"
+msgstr ""
+
+#: src/components/Footer/index.js
+msgid "About us"
+msgstr ""
+
+#: src/components/Footer/index.js
+msgid "Support"
+msgstr ""
+
+#: src/components/Footer/index.js
+msgid "Blog"
+msgstr ""
+
+#: src/components/Footer/index.js
+msgid "Press"
+msgstr ""
+
+#: src/components/Footer/index.js
+msgid "API"
+msgstr ""
+
+#: src/components/Footer/index.js
+msgid "Jobs"
+msgstr ""
+
+#: src/components/Footer/index.js
+msgid "Terms"
+msgstr ""
+
+#: src/components/Footer/index.js
+msgid "Directory"
+msgstr ""
+
+#: src/components/Footer/index.js
+msgid "Language"
+msgstr ""
+
