@@ -1,7 +1,43 @@
 import React, {Component} from "react";
 import SignUpForm from "./presenter";
+import {connect} from 'react-redux';
 
+class Container extends Component {
+	state = {
+		email: "",
+		fullName: "",
+		username: "",
+		password: "",
+	};
 
-const Container = props => <SignUpForm {...props}/>;
+	render() {
+		const {email, fullName, username, password} = this.state;
+		return (
+			<SignUpForm handleInputChange={this._handleInputChange}
+			            handleSubmit={this._handleSubmit}
+			            emailValue={email}
+			            fullNameValue={fullName}
+			            usernameValue={username}
+			            passwordValue={password}/>
+		);
+	}
 
-export default Container;
+	_handleInputChange = event => {
+		const {target: {value, name}} = event;
+		this.setState({
+			[name]: value
+		});
+	};
+	_handleSubmit = event => {
+		event.preventDefault();
+		console.log(this.state)
+	};
+}
+
+function mapStateToProps(state) {
+	return {};
+}
+
+export default connect(
+	mapStateToProps,
+)(Container);
