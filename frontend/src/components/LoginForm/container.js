@@ -1,43 +1,46 @@
 import React, {Component} from "react";
 import {connect} from 'react-redux';
+import PropTypes from "prop-types";
 import LoginForm from "./presenter";
 
 class Container extends Component {
-	state = {
-		username: "",
-		password: "",
-	};
+    state = {
+        username: "",
+        password: "",
+    };
+    static propTypes = {
+        facebookLogin: PropTypes.func.isRequired
+    };
 
-	render() {
-		const {username, password} = this.state;
-		return (
-			<LoginForm
-				handleInputChange={this._handleInputChange}
-				handleSubmit={this._handleSubmit}
-				handleFacebookLogin={this._handleFacebookLogin}
-				usernameValue={username} passwordValue={password}/>
-		);
-	}
+    render() {
+        const {username, password} = this.state;
+        return (
+            <LoginForm
+                handleInputChange={this._handleInputChange}
+                handleSubmit={this._handleSubmit}
+                handleFacebookLogin={this._handleFacebookLogin}
+                usernameValue={username} passwordValue={password}/>
+        );
+    }
 
-	_handleInputChange = event => {
-		const {target: {value, name}} = event;
-		console.log(event.target.value);
-		console.log(event.target.name);
-		this.setState({
-			[name]: value
-		});
-	};
-	_handleSubmit = event => {
-		event.preventDefault();
-		console.log(this.state)
-	};
-	_handleFacebookLogin = response => {
-		console.log(response)
-	}
+    _handleInputChange = event => {
+        const {target: {value, name}} = event;
+        this.setState({
+            [name]: value
+        });
+    };
+    _handleSubmit = event => {
+        event.preventDefault();
+    };
+    _handleFacebookLogin = response => {
+        console.log(response);
+        const {facebookLogin} = this.props;
+        facebookLogin(response.accessToken);
+    }
 }
 
 function mapStateToProps(state) {
-	return {};
+    return {};
 }
 
 export default connect(mapStateToProps,)(Container);
