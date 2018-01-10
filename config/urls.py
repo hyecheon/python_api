@@ -10,7 +10,6 @@ from python_api import views
 urlpatterns = [
                   # Django Admin, use {% url 'admin:index' %}
                   url(settings.ADMIN_URL, admin.site.urls),
-
                   # User management
                   url(r'^rest-auth/', include('rest_auth.urls')),
                   url(r'^rest-auth/registration/', include('rest_auth.registration.urls')),
@@ -18,11 +17,14 @@ urlpatterns = [
                   url(r'^images/', include('python_api.images.urls', namespace='images')),
                   url(r'^notifications/', include('python_api.notifications.urls', namespace='notifications')),
                   url(r'^accounts/', include('allauth.urls')),
-                  url(r'^', views.ReactAppView.as_view()),
 
                   # Your stuff: custom urls includes go here
 
               ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+urlpatterns += [
+    url(r'^', views.ReactAppView.as_view()),
+]
 
 if settings.DEBUG:
     # This allows the error pages to be debugged during development, just visit
