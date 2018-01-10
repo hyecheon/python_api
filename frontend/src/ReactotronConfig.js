@@ -2,8 +2,8 @@ import Reactotron from 'reactotron-react-js'
 import {reactotronRedux} from 'reactotron-redux'
 
 Reactotron
-    .configure({name: "python_api"})
-    .use(reactotronRedux())
-    .connect();
+	.configure({name: "python_api"})
+	.use(reactotronRedux())
+	.connect();
 
 export default Reactotron

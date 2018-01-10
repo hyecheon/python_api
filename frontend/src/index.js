@@ -8,13 +8,13 @@ import I18n from 'redux-i18n';
 import {translations} from "translations";
 
 ReactDOM.render(
-    <Provider store={store}>
-        <ConnectedRouter history={history}>
-            <I18n translations={translations} initialLang="ko" fallbackLang="en">
-                <App/>
-            </I18n>
-        </ConnectedRouter>
-    </Provider>
-    , document.getElementById('root')
+	<Provider store={store}>
+		<ConnectedRouter history={history}>
+			<I18n translations={translations} initialLang="ko" fallbackLang="en">
+				<App/>
+			</I18n>
+		</ConnectedRouter>
+	</Provider>
+	, document.getElementById('root')
 );
 

@@ -13,20 +13,20 @@ const history = createHistory();
 const middleware = [thunk, routerMiddleware(history)];
 
 if (env === 'development') {
-    const {logger} = require('redux-logger');
-    middleware.push(logger);
+	const {logger} = require('redux-logger');
+	middleware.push(logger);
 }
 
 const reducer = combineReducers({
-    user,
-    routing: routerReducer,
-    i18nState,
+	user,
+	routing: routerReducer,
+	i18nState,
 });
 let store;
 if (env === 'development') {
-    store = initialState => createStore(reducer, composeWithDevTools(applyMiddleware(...middleware)));
+	store = initialState => createStore(reducer, composeWithDevTools(applyMiddleware(...middleware)));
 } else {
-    store = initialState => createStore(reducer, applyMiddleware(...middleware));
+	store = initialState => createStore(reducer, applyMiddleware(...middleware));
 }
 
 
