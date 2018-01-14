@@ -14,7 +14,7 @@ function saveToken(token) {
 
 // API actions
 function facebookLogin(access_token) {
-	return function (dispatch) {
+	return dispatch => {
 		fetch("/users/login/facebook/", {
 			method: "POST",
 			headers: {
@@ -38,18 +38,14 @@ function usernameLogin(username, password) {
 	let message = JSON.stringify({
 		username,
 		password
-	});
-	console.log(message);
-	return function (dispatch) {
+	},);
+	return dispatch => {
 		fetch("/rest-auth/login/", {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json"
 			},
-			body: JSON.stringify({
-				username,
-				password
-			},)
+			body: message
 		})
 			.then(response => response.json())
 			.then(json => {

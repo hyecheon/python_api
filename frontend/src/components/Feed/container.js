@@ -6,7 +6,12 @@ class Container extends Component {
 	state = {
 		loading: true
 	};
-
+	
+	componentDidMount() {
+		const {getFeed} = this.props;
+		getFeed();
+	}
+	
 	render() {
 		return (
 			<Feed {...this.state}/>
