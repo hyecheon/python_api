@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
 import Navigation from "./presenter"
 
 class Container extends Component {
@@ -9,7 +8,5 @@ class Container extends Component {
 		);
 	}
 }
-
-Container.propTypes = {};
 
 export default Container;
