@@ -10,9 +10,10 @@ import CommentBox from "../CommentBox";
 const FeedPhoto = (props, context) => {
 	return (
 		<div className={styles["feed-photo"]}>
-			<header>
+			<header className={styles.header}>
 				<img src={props.creator.profile_image || require("images/noPhoto.jpg")}
 				     alt={props.creator.username}
+				     className={styles.image}
 				/>
 				<div>
 					<span>{props.creator.username}</span>
@@ -20,7 +21,7 @@ const FeedPhoto = (props, context) => {
 				</div>
 			</header>
 			<img src={props.file} alt={props.caption}/>
-			<div>
+			<div className={styles.meta}>
 				<PhotoActions number={props.like_count}/>
 				<PhotoComments caption={props.caption}
 				               creator={props.creator.username}
