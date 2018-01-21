@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import TextArea from 'react-textarea-autosize';
 
 const CommentBox = (props, context) => {
 	return (
 		<form>
-			<textarea placeholder={context.t("Add a comment...")}></textarea>
+			<TextArea placeholder={context.t("Add a comment...")}></TextArea>
 		</form>
 	);
 };
