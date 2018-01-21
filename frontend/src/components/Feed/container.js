@@ -7,8 +7,8 @@ class Container extends Component {
 		loading: true
 	};
 	static propTypes = {
+		// feed: PropTypes.object,
 		getFeed: PropTypes.func.isRequired,
-		feed: PropTypes.array
 	};
 	
 	componentDidMount() {
@@ -26,7 +26,8 @@ class Container extends Component {
 	};
 	
 	render() {
-		return <Feed {...this.state} />;
+		const {feed} = this.props;
+		return <Feed {...this.state} feed={feed}/>;
 	}
 }
 
