@@ -1,10 +1,14 @@
 import React, {Component} from 'react';
-import PhotoActions from './presenter'
+import UserList from './presenter';
 
 class Container extends Component {
+	state = {
+		loading: true
+	};
+	
 	render() {
 		return (
-			<PhotoActions {...this.props}/>
+			<UserList {...this.props} {...this.state}/>
 		);
 	}
 }
