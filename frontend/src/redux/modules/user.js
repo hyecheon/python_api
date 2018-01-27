@@ -4,6 +4,8 @@
 const SAVE_TOKEN = "SAVE_TOKEN";
 const LOGOUT = "LOGOUT";
 const SET_USER_LIST = "SET_USER_LIST";
+const FOLLOW_USER = "FOLLOW_USER";
+const UN_FOLLOW_USER = "UN_FOLLOW_USER";
 
 //action creators
 
@@ -24,6 +26,20 @@ function setUserList(userList) {
 	return {
 		type: SET_USER_LIST,
 		userList
+	}
+}
+
+function setFollowUser(userId) {
+	return {
+		type: FOLLOW_USER,
+		userId
+	}
+}
+
+function setUnFollowUser(userId) {
+	return {
+		type: UN_FOLLOW_USER,
+		userId
 	}
 }
 
@@ -113,6 +129,17 @@ function getPhotoLikes(photoId) {
 	}
 }
 
+function followUser(userId) {
+	return (dispatch, getState) => {
+		dispatch(setFollowUser(userId));
+	}
+}
+
+function unFollowUser(userId) {
+	return (dispatch, getState) => {
+		dispatch(setUnFollowUser(userId))
+	}
+}
 
 //initial state
 
@@ -131,6 +158,10 @@ function reducer(state = initialState, action) {
 			return applyLogout(state, action);
 		case SET_USER_LIST:
 			return applySetUserList(state, action);
+		case FOLLOW_USER:
+			return applyFollowUser(state, action);
+		case UN_FOLLOW_USER:
+			return applyUnFollowUser(state, action);
 		default:
 			return state;
 	}
@@ -162,13 +193,39 @@ function applySetUserList(state, action) {
 	}
 }
 
+function applyFollowUser(state, action) {
+	const {userId} = action;
+	const {userList} = state;
+	const updatedUserList = userList.map(user => {
+		if (user.id === userId) {
+			return {...user, following: true}
+		}
+		return user;
+	});
+	return {...state, userList: updatedUserList}
+}
+
+function applyUnFollowUser(state, action) {
+	const {userId} = action;
+	const {userList} = state;
+	const updatedUserList = userList.map(user => {
+		if (user.id === userId) {
+			return {...user, following: false}
+		}
+		return user;
+	});
+	return {...state, userList: updatedUserList}
+}
+
 //exports
 const actionCreators = {
 	facebookLogin,
 	usernameLogin,
 	createAccount,
 	logout,
-	getPhotoLikes
+	getPhotoLikes,
+	followUser,
+	unFollowUser
 };
 export {actionCreators};
 
