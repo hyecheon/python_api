@@ -5,6 +5,14 @@ class Container extends Component {
 	state = {
 		loading: true
 	};
+	componentWillReceiveProps = nextProps => {
+		console.log(nextProps);
+		if (nextProps.userList) {
+			this.setState({
+				loading: false
+			});
+		}
+	};
 	
 	render() {
 		return (

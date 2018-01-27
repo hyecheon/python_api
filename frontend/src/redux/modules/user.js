@@ -95,6 +95,7 @@ function createAccount(username, password, email, name) {
 			});
 	}
 }
+
 function getPhotoLikes(photoId) {
 	return (dispatch, getState) => {
 		const {user: {token}} = getState();
@@ -103,7 +104,6 @@ function getPhotoLikes(photoId) {
 				Authorization: `JWT ${token}`
 			}
 		}).then(response => {
-			console.log(response)
 				if (response.status === 401) dispatch(logout());
 				return response.json();
 			}
